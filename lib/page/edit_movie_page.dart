@@ -50,6 +50,7 @@ class _AddEditMoviePageState extends State<AddEditMoviePage> {
             onChangedTitle: (title) => setState(() => this.title = title),
             onChangedDescription: (description) =>
                 setState(() => this.description = description),
+            onChangedImage: (image) => this.image = image,
           ),
         ),
       );
@@ -90,6 +91,7 @@ class _AddEditMoviePageState extends State<AddEditMoviePage> {
     final movie = widget.movie!.copy(
       number: number,
       title: title,
+      image:image,
       description: description,
     );
 

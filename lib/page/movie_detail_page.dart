@@ -62,6 +62,12 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
                     style: const TextStyle(color: Colors.white38),
                   ),
                   const SizedBox(height: 8),
+                  Image.network('https://upload.wikimedia.org/wikipedia/id/1/17/Laskar_Pelangi_film.jpg'),
+                  // Text(
+                  //   movie.image,
+                  //   style: const TextStyle(color: Colors.white70, fontSize: 18),
+                  // ),
+                  const SizedBox(height: 8.0),
                   Text(
                     movie.description,
                     style: const TextStyle(color: Colors.white70, fontSize: 18),
